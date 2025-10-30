@@ -1,1 +1,9 @@
+// settings.gradle
+
+plugins {
+    // Java 다운로더 플러그인을 이 파일로 이동
+    id 'org.gradle.toolchains.foojay-resolver-convention' version '0.8.0'
+}
+
+// 프로젝트 이름을 알려주는 설정 (필수!)
 rootProject.name = 'calculator'
