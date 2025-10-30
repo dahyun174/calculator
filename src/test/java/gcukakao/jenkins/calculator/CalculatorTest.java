@@ -26,12 +26,9 @@ public class CalculatorTest {
         assertEquals(6, calculator.div(12, 2)); // [cite: 72]
     }
 
-    // --- ⬇️ 과제에서 추가할 테스트 코드 ⬇️ ---
     @Test
     public void testHelloName() {
-        // "YourName" 부분에 본인 이름을 넣으세요.
         String myName = "곽다현";
         assertEquals("Hello, " + myName, calculator.helloName(myName));
     }
-    // --- ⬆️ 과제에서 추가할 테스트 코드 ⬆️ ---
 }

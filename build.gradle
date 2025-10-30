@@ -7,7 +7,6 @@ plugins {
 group = 'gcukakao.jenkins'
 version = '0.0.1-SNAPSHOT'
 
-// Java 17 toolchain 설정 (한 번만 있으면 됩니다)
 java {
     toolchain {
         languageVersion = JavaLanguageVersion.of(17)
@@ -16,7 +15,6 @@ java {
 
 description = 'Demo project for Spring Boot'
 
-// 이전에 여기에 있던 중복된 java { ... } 블록을 제거했습니다.
 
 repositories {
     mavenCentral()
